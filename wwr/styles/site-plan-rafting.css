@@ -1,0 +1,64 @@
+@import url(https://fonts.google.com/selection?query=josefin);
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    primary-color: #F3AA34;
+    secondary-color: #348234;
+    accent1-color: #206EB3;
+    accent2-color: #080C0C;
+
+    heading-font: 'Montagu Slab', serif;
+    paragraph-or-default-font: 'Josefin Sans', serif;
+
+    nav-background-color: #FFFFFF;
+    nav-link-color: #348234;
+    nav-hover-link-color: #F3AA34;
+    nav-hover-background-color: #206EB3;
+}
+
+body {
+    f_____: var(--paragraph-font);
+    m_____: _____;
+    p_____: _____;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
