@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap')
+* {
+	margin: 0;
+	padding: 0;
+}
 
 body {
     font-family: var(--paragraph-font);
@@ -22,19 +25,19 @@ body {
 }
 
 body {
-    f_____: var(--paragraph-font);
-    m_____: _____;
-    p_____: _____;
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--#348234);
 }
 
 header {
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: var(--#206EB3);
 }
 
 p {
