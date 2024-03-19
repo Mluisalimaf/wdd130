@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap');
 
-.josefin-sans {
-    font-family: "Josefin Sans", sans-serif;
-    font-optical-sizing: auto;
-
-}
-
-.montagu-slab {
-    font-family: "Montagu Slab", serif;
-    font-optical-sizing: auto;
-}
-
 body {
     font-family: var(--paragraph-or-default-font);
     max-width: 960px;
