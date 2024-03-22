@@ -6,29 +6,48 @@
 
 nav {
     background-color: steelblue;
-    padding: 10px;    
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
 }
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
 }
 h1 {
     color: steelblue;
+    justify-content: flex-end 
 }
-img {
-    width:150px;
-    height: auto;
-    border: 1px solid rgb(70, 130, 180);
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
-}
+
 p {
     padding: 0px
 }
 
-main {
+header, .grid, footer {
     max-width: 840px;
+    margin: 0;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 main img {
@@ -57,7 +76,7 @@ aside {
 }
 
 aside img {
-    width: 200px;
+    width: 285px;
     height: auto;
 } 
 
@@ -65,12 +84,6 @@ aside h2 {
     position: absolute;
     top: 20px;
     left: 50px;
-}
-
-footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
 }
 
 /* Class Slectors */
