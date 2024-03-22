@@ -24,15 +24,14 @@ h1 {
     justify-content: flex-end 
 }
 
+.grid {
+    display: grid;
+    align-items: center;
+}
 
 header, footer, .grid {
     margin: 0;
     max-width: 840px;
-}
-
-.grid {
-    display: grid;
-    align-items: center;
 }
 
 main {
@@ -62,7 +61,7 @@ p {
 }
 
 aside {
-    width: 20em;
+    width: 15em;
     margin: 1rem;
     border: 1px solid rgba(0,0,0, 0.2);
     padding: 1rem;
@@ -73,14 +72,14 @@ aside {
 }
 
 aside img {
-    width: 285px;
+    width: 200px;
     height: auto;
 } 
 
 aside h2 {
     position: absolute;
     top: 20px;
-    left: 50px;
+    left: 10px;
 }
 
 /* Class Slectors */
