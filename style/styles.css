@@ -24,9 +24,6 @@ h1 {
     justify-content: flex-end 
 }
 
-p {
-    padding: 0px
-}
 
 header, footer, .grid {
     margin: 0;
