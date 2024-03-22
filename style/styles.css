@@ -28,9 +28,9 @@ p {
     padding: 0px
 }
 
-header, .grid, footer {
-    max-width: 840px;
+header, footer, .grid {
     margin: 0;
+    max-width: 840px;
 }
 
 .grid {
