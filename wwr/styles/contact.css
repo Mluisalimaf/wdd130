@@ -88,7 +88,7 @@ nav a:hover {
 }
 
 body{
-    font-family: Roboto, serif;
+    font-family: Josefin Sans, serif;
     font-size: 1rem;
     color: #15092d;
     background: #fff;
@@ -130,7 +130,7 @@ legend {
 }
 
 label, input, button, select, textarea {
-    font-family: Roboto, serif;
+    font-family: JOsefin Sans, serif;
 }
 
 label {
