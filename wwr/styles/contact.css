@@ -109,8 +109,7 @@ h2{
 }
 
 h1 {
-    padding: 100px;
-    margin: .5rem;
+    padding: 60px;
     text-align: center;
     font-size: 3rem;
 }
@@ -129,17 +128,17 @@ h1 {
     flex-direction: column;
     align-items: center;
     margin: 10px;
-    border: 10%;
 }
 
 .employee img {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     border-radius: 10px;
     align-items: center;
+    margin: 2rem;
 }
 
 .employee figure {
-    margin: 0;
+    margin: 2.3rem;
     text-align: center;
 }
 
@@ -162,7 +161,7 @@ header {
 }
 
 h2 {
-    margin: rem;
+    margin: 1rem;
     font-size: 1.5em;
     color: rgb(1, 1, 5);
     text-align: left;
@@ -170,6 +169,7 @@ h2 {
 }
 
 .container-form {
+    margin: 1.2rem;
     display: flex;
     justify-content: flex-start;
 }

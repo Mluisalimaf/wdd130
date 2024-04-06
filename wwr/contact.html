@@ -33,9 +33,7 @@
             <p>E-mail: lifeadventures.123@gmail.com</p>
         </div>
         <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2187615.
-            428640509!2d-112.20665446664496!3d40.77861630153504!2m3!1f0!2f0!3f0!3m2!1i1024!
-            2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1712358061476!5m2!1spt-BR!2sbr" 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2187615.428640509!2d-112.20665446664496!3d40.77861630153504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1712358061476!5m2!1spt-BR!2sbr" 
             width="550" height="150" allowfullscreen="" loading="lazy" 
             referrerpolicy="no-referrer-when-downgrade">
             </iframe>
@@ -65,12 +63,13 @@
             <fieldset>
 
                 <label for="fullname">Full Name:</label>
-                <input type="text" id="q1" name="q1">
+                <input type="text" id="fullname" name="name">
 
                 <label for="useremail">Email:</label>
-                <input type="text" id="q1" name="q1">
+                <input type="text" id="useremail" name="email">
 
-                <label for="q2">Which of these is the better option for you?</label>
+                <label for="option">Which of these is the better option for you?</label>
+                <input type="text" id="option" name="option" hidden>
                 <div class="radio">
                     <input type="radio" id="generalinquiry" name="q2" value="generalinquiry">
                     <label for="generalinquiry">General Inquiry</label><br>
@@ -79,14 +78,14 @@
                     <input type="radio" id="websitesuggestion" name="q2" value="websitesuggestion">
                     <label for="websitesuggestion">Website Suggestion</label><br>
                 </div>
-
-                <label for="questions">Write yours questions here:</label>
-                <textarea id="q3" name="q3" rows="4" placeholder="..."></textarea>
                 
-                <label class="checkbox container">
-                    <label for="q4">Please subscribe me to the monthly newsletter.</label>
-                    <input type="checkbox" id="checkbox" name="checkbox">
-                </label>
+                <label for="questions">Write yours questions here:</label>
+                <textarea id="questions" name="questions" rows="4" placeholder="..."></textarea>
+                
+                <div class="checkbox container">
+                <label for="newsletter">Please subscribe me to the monthly newsletter.</label>
+                <input type="checkbox" id="newsletter" name="checkbox">
+                </div>
 
             </fieldset>
             <button type="submit">Submit Form</button>
