@@ -96,6 +96,7 @@ body {
     margin: 10px;
     padding: 10px;
     text-align: left;
+    font-size: 1.5rem;
 }
 
 h2{
@@ -108,17 +109,19 @@ h2{
 }
 
 h1 {
-    padding: 25px;
-    margin: 3rem;
+    padding: 100px;
+    margin: .5rem;
     text-align: center;
+    font-size: 3rem;
 }
 
 .hero {
     flex-wrap: wrap;
-    margin: rem;
+    margin: auto;
     padding: 9px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .employee {
@@ -130,8 +133,9 @@ h1 {
 }
 
 .employee img {
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     border-radius: 10px;
+    align-items: center;
 }
 
 .employee figure {
@@ -162,6 +166,7 @@ h2 {
     font-size: 1.5em;
     color: rgb(1, 1, 5);
     text-align: left;
+    font-size: 2rem;
 }
 
 .container-form {
