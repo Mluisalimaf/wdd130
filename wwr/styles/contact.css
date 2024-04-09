@@ -3,7 +3,7 @@
 
 body {
     font-family: var(--paragraph-or-default-font);
-    max-width: 1250px;
+    max-width: 960px;
     padding: 20px;
 }
 
@@ -30,7 +30,7 @@ body {
     font-family: var(--paragraph-or-default-font);
     width: 0px;
     padding: 20px;
-    width: 1320px;
+    width: 960px;
     margin: 0 auto;
     border: 2px solid;
     background-color: #e7ddd1;
@@ -60,7 +60,7 @@ body {
 .links a {
     margin: 30px;
     border: 1rem;
-    padding: 30px;
+    padding: 20px;
     border: 1px solid #040404;
 }
 
@@ -81,7 +81,7 @@ body {
 }
 .header img {
     grid-column: span 2;
-    max-width: 30%;
+    max-width: 40%;
     height: auto;
     margin: 10px;
     border-radius: 70px 40px 80px 50px;
@@ -90,7 +90,7 @@ body {
 
 .contact {
     position: relative;
-    width: 1147px;
+    width: 850px;
     margin: 2rem;
     padding: 25px;
     border-radius: 5px;
@@ -99,10 +99,12 @@ body {
 }
 
 .map {
-    position: relative;
-    padding-left: 550px;
-    top: -6rem;
-    margin: -4rem;          
+    position: absolute;
+    align-items: right;
+    top: 10.5rem;
+    left: 11rem;
+    margin: -7rem;
+    padding-left: 350px;      
 }
 
 .contact h1 {
