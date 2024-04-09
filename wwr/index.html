@@ -4,17 +4,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Maria Luisa Ferraz | WDD 130: Life Adventures, Trips Page, options for trips the clients can get.</title>
-    <meta name="description" content="Maria Luisa Ferraz = BYU assignment, WDD 130 Trips page.">
+    <title>Maria Luisa Ferraz | WDD 130: Life Adventures, Home Page, the principal page for the Rafting Site.</title>
+    <meta name="description" content="Maria Luisa Ferraz = BYU assignment, WDD 130 Home Page.">
     <meta name="author" content="Maria Luisa Ferraz">
-    <link rel="stylesheet" href="styles/trips.css">
+    <link rel="stylesheet" href="styles/codetest.css">
   </head>
 
   <body>
     <header>
         <nav>
             <div class="header">
-                <img src="images/life-adventures.jpg" alt="place" width="700">
+                <img src="images/life-adventures.jpg" alt="logo" width="960">
                 <div class="links">
                     <a href="#">Home</a>
                     <a href="about.html">About Us</a>
@@ -25,94 +25,74 @@
         </nav>
     </header>
 <main>
-        <h1>Explore Our Adventures:</h1>
-
-        <h3>Our three tops routes!</h3>
-
-        <div class="hero">
-
-            <div class="tripsrafting">
-                <img src="images/tripsrafting.jpg" alt="" width="200">
-                <figure>Venture into the thrilling <br>whitewater rapids of Rio Branco, 
-                    <br>experiencing the adrenaline <br>of white water rafting!<br></figure>
-            </div>
-
-            <div class="tripsrafting">
-                <img src="images/tripsrafting2.jpg" alt="" width="200">
-                <figure>Join an experienced team and <br>paddle through the rapids<br> 
-                    of La Peace, pushing your limits <br>and experiencing unique thrills!<br></figure>
-            </div>  
-
-            <div class="tripsrafting">
-                <img src="images/tripsrafting3.jpg" alt="" width="200" height="133">
-                <figure>Explore the stunning landscape of <br>Rio Azul as you navigate<br>
-                    through rough waters, enjoying <br>an unforgettable adventure!<br></figure>
+    <div class="hero">
+        <div class="heroimg">
+            <img src="images/river-wide.jpeg" alt="A beaultifull view of a lake." 
+            width="960">
+            <div class="herotext">
+                <h2>COME AND DISCOVER</h2>
             </div>
         </div>
+    </div>
 
-        <p>Comments from our clients and their experiences:</p>
+    <div class="title">
+        <h2>Welcome to Life Adventures,<br>
+         we are experts in White Water Rafting, 
+         <br>one of the top ones in the field! 
+         <br>Explore our
+        <a href="trips.html" class="cta-button">trips page</a>,
+         <br>and hear from our clients their <br> amazing experiences. <br>
+         Follow us on <a href="#container-links">social media</a>
+         .</h2>
+    </div>
 
-            <div class="comments1">
-                <h3> &#x1F601;"Incredible! Never felt so much thrill as paddling through the rapids
-                    of Rio Branco.<br>An experience I'll never forget! #PureAdrenaline"&#x1F601;
-                    Ethan Graham
-                </h3>
-            </div>
-            <div class="comments2">
-                <h3>🚣"Absolutely fantastic! The swirling waters of Rio Azul provided 
-                    an unmatched adventure.<br> Highly recommend to everyone! #TotalAdventure"🚣
-                    Teressa Daniels
-                </h3>
-            </div>
-            <div class="comments3">
-                <h3>🏞️"Best decision ever! Rowing through the rapids of La Peace gave me 
-                    a unique blend of <br> adrenaline and inner peace. Unmissable!
-                    #UnforgettableExperience"🏞️ Thomas Leroy
-                </h3>
-            </div>
-        <div class="choose">
-            <h1>Choose one of our plans!</h1> 
+    <div class="purpose">
+        <div class="purpose1">
+            <img src="images/purpose.jpg" alt="People in a boat on the river" width="700">
         </div>
-        <div class="plans">
-            <div class="all-plans1">
-                <img src="images/tripsrafting.jpg" alt="" width="200">
-                <figure>Rio Branco route: <br>25 minutes of rafting. 
-                    <br>(maximum: group of 6).</figure>
-                    <a href="silverplan">Silver Plan</a>
-            </div>
-
-            <div class="all-plans2">
-                <img src="images/tripsrafting2.jpg" alt="" width="200">
-                <figure>La Peace route:<br>40 minutes of rafting
-                    <br>(maximum: group of 6)</figure>
-
-                <img src="images/tripsrafting4.jpg" alt="" width="200">
-                <figure>Lake Eloíse route: <br>45 minutes 
-                    <br>(maximum: group of 8)</figure>
-                    <a href="golden">Golden Plan</a>
-            </div>  
-
-            <div class="all-plans3">
-                <img src="images/tripsrafting3.jpg" alt="" width="200">
-                <figure>Rio Azul route:<br> 55 minutes of rafting
-                    <br>(maximum: group of 8)<br></figure>
-
-                <img src="images/tripsrafting6.jpg" alt="" width="200">
-                <figure>River Aurora route:<br>1:20 minutes of rafting
-                    <br>(maximum: group of 10)</figure>
-                    <a href="diamondplan">Diamond Plan</a>
-            </div>
-
+        <div class="purpose2">
+            <img src="images/canyons.jpg" alt="View for some canyons" width="700">
         </div>
+        <div class="purpose3">
+            <img src="images/safety.jpg" alt="Material for safety" width="700">
+        </div>
+    </div>
+
+    <p>Our mission is to offer thrilling white water rafting adventures, <br>
+    ensuring unforgettable experiences on the river. 
+    <br>We have an strong dedication to safety and excitement. <br>
+    If you want to know our promotions, events and news, subscribe on the news letter.
+    </p>
+
+    <div class="container-form">
+        <form>
+            <fieldset>
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="name">
+
+                <label for="useremail">Email:</label>
+                <input type="text" id="useremail" name="email">
+
+                <div class="checkbox-container">
+                    <label for="newsletter">Subscribe me to the monthly newsletter.</label>
+                </div>
+            </fieldset>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+
+
         <div class="more">
-            <h3>Need more information?  <a href="contact.html" class="cta-button">CONTACT US</a></h3>
+            <h3>Want to know more?  <a href="contact.html" class="cta-button">CONTACT US</a></h3>
         </div>
 </main>
             <footer>
+                <div id="container-links">
                 <div class="container">
                         <div class="container-text">
                             <p>©️ 2024 ©️, Life Adventures, Maria Luisa Ferraz,
-                            <a href="contact.html" class="cta-button">Wireframe</a></h3> </p>
+                            <a href="" class="cta-button">Wireframe</a></h3> </p>
                         </div>
                         <div class="socialmedia-links">
                             <nav class="sociallinks">
@@ -127,7 +107,8 @@
                                 </a>
                             </nav>
                         </div>
-                </div>    
+                </div> 
+                </div>   
             </footer>
     </body> 
 </html>
