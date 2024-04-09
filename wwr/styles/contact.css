@@ -3,7 +3,7 @@
 
 body {
     font-family: var(--paragraph-or-default-font);
-    max-width: 960px;
+    max-width: 1250px;
     padding: 20px;
 }
 
@@ -30,7 +30,7 @@ body {
     font-family: var(--paragraph-or-default-font);
     width: 0px;
     padding: 20px;
-    width: 960px;
+    width: 1250px;
     margin: 0 auto;
     border: 2px solid;
     background-color: #e7ddd1;
@@ -90,12 +90,13 @@ body {
 
 .contact {
     position: relative;
-    width: 850px;
+    width: 1000px;
     margin: 2rem;
     padding: 25px;
     border-radius: 5px;
     border: 2px solid #040404;
     background-color: #f0f0f0;
+    margin-left: 6.5rem;
 }
 
 .map {

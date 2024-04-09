@@ -28,9 +28,8 @@ html {
 
 body {
     font-family: var(--paragraph-or-default-font);
-    width: 0px;
     padding: 20px;
-    width: 1320px;
+    width: 1250px;
     margin: 0 auto;
     border: 2px solid;
     background-color: #e7ddd1;

@@ -3,7 +3,7 @@
 
 body {
     font-family: var(--paragraph-or-default-font);
-    max-width: 960px;
+    max-width: 1250px;
     padding: 20px;
 }
 
@@ -29,7 +29,7 @@ html {
 body {
     font-family: var(--paragraph-or-default-font);
     padding: 20px;
-    width: 960px;
+    width: 1250px;
     margin: 0 auto;
     border: 2px solid;
     background-color: #e7ddd1;
@@ -105,15 +105,15 @@ body {
     position: absolute;
     margin-bottom: 50px;
     top: 80px;
-    left: 190px;
+    left: 310px;
 }
 
-.heroimg {
-    width: 250px;
-    border: 10px;
-    padding: 3.5rem 1rem 1rem;
-    margin: -38px;
-    margin-bottom: 3rem;
+.heroimg img {
+    display: grid;
+    width: 1247.5px;
+    height: 350px;
+    margin-left: -1.2rem;
+    padding: 10px 0px 0px 0px;;
 }
 
 .title h2{
@@ -148,7 +148,7 @@ body {
     margin-bottom: 2rem;
     width: 250px;
     padding: 2px;
-    margin: 20px;
+    margin: 64.8px;
     align-items: center;
     border-radius: 20px;
     box-sizing: border-box;
@@ -255,7 +255,7 @@ button:hover {
 }
 
 .container {
-    display: flex;
+    display: grid;
     grid-template-columns: auto 1fr;
     padding: 2px;
     background-color: var(--nav-hover-background-color);
@@ -265,12 +265,12 @@ button:hover {
     height: 80px;
 }
 
-.container-text {
-    display: flex;
-    padding: 0px;
-    font-size: .1rem;
+.container-text p {
+    padding: 2px;
+    font-size: .7rem;
     font-weight: bold;
-    margin-left: 1rem;
+    margin: -1rem;
+    margin-left: 17rem;
 }
 
 .sociallinks img {
