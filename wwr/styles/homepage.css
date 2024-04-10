@@ -227,22 +227,20 @@ button:hover {
 
 .more {
     font-family: var(--paragraph-or-default-font);
-    height: 50px;
-    width: 900px;
-    margin: 2px;
-    padding: 2px;
     display: flex;
-    margin-bottom: 2rem;
-    align-items: center;
     justify-content: center;
+    text-align: center;
+    align-items: center;
     font-size: 2rem;
     box-sizing: border-box;
     background-color: #fff;
     font-weight: bold;
-    box-shadow: 0 0 2px;
     border-radius: 50px;
     text-decoration: none;
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
+    width: 650px;
+    height: 70px;
+    margin-left: 18rem; 
 }
 
 .more a {
